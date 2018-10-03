@@ -1,5 +1,4 @@
 import { HttpClientModule } from '@angular/common/http';
-import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/Router';
@@ -26,7 +25,6 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    HttpModule,
     HttpClientModule,
     RouterModule.forRoot(routes),
     FormsModule,

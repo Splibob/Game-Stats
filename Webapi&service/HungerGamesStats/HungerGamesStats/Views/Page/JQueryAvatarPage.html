@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="/Scripts/jquery-3.0.0.js"></script>
+    <!--<script src="../../Scripts/JS/putpage.js"></script>
+    <script src="../../Scripts/JS/deletepage.js"></script>
+    <script src="../../Scripts/JS/getpage.js"></script>
+    <script src="../../Scripts/JS/postpage.js"></script>-->
+    <script src="../../Scripts/JS/promisegetpage.js"></script>
+    <script src="../../Scripts/JS/gptd.js"></script>
+    <script src="../../Scripts/JS/changetbl.js"></script>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./TheAvatarPage">THTG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../Page/TheAvatarPage">Avatar Page</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Page/JQueryAvatarPage">JQuery Avatar Page<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="../Page/TheWatcherInTheWater">The Watcher In The Water</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="theJInputs">
+            <div class="row">
+                <div class="col-1">
+                    GameID:
+                </div>
+                <div class="col-1">
+                    <input class="form-control" type="number" min="0" id="gameIdtxt" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    GameName:
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text" id="gameNametxt" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    Player 1:
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text" id="player1txt" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    Player 2:
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text" id="player2txt" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    Winner:
+                </div>
+                <div class="col-2">
+                    <input class="form-control" type="text" id="whoWontxt" />
+                </div>
+            </div>
+        </div>
+
+        <div id="thebtns" class="row mt-2">
+            <div class="col-sm">
+                <button class="btn btn-info" name="getGamesbtn" onclick="getGamesJQuery()">All Game Sessions </button>
+            </div>
+            <div class="col-sm">
+                <button class="btn btn-info" name="get1Gamebtn" onclick="get1GameJQuery()">Get Game by id</button>
+            </div>
+            <div class="col-sm">
+                <button class="btn btn-info" name="PostGamebtn" onclick="postJQueryGame()">Add A Game Session</button>
+            </div>
+            <div class="col-sm">
+                <button class="btn btn-info" name="putInGamebtn" onclick="putGameJQuery()">Update A Game Session</button>
+            </div>
+            <div class="col-sm">
+                <button class="btn btn-info" name="deleteGamebtn" onclick="deleteGameJQuery()">Delete Game by id</button>
+            </div>
+            <!--<div class="col-sm">
+                <h6>Promise me!</h6><input type="checkbox" name="mockGamesbtn" id="mockGamesbtnId">
+            </div>-->
+            <div id="btnPromises">
+                <input type="radio" id="btnRealServer" name="rate" value="Real Server" checked="checked"> Real
+                <input type="radio" id="btnPromise" name="rate" value="Promise"> Promise Me!!!
+                <input type="radio" id="btnNJS" name="rate" value="NodeJS"> No J for you
+            </div>
+        </div>
+
+        <table id="tblGames" class="table" name="tblGames">
+            <thead>
+                <tr>
+                    <th scope="col">Game</th>
+                    <th scope="col">Session</th>
+                    <th scope="col">Player 1</th>
+                    <th scope="col">Player 2</th>
+                    <th scope="col">Winner</th>
+                </tr>
+            </thead>
+        </table>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

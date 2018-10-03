@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungerGamesStats", "HungerGamesStats\HungerGamesStats.csproj", "{F460569C-B458-4EEA-9994-EC747E2477D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService", "GameService\GameService.csproj", "{706DEF11-A39B-4F65-912D-DC826506D2AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F460569C-B458-4EEA-9994-EC747E2477D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F460569C-B458-4EEA-9994-EC747E2477D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F460569C-B458-4EEA-9994-EC747E2477D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F460569C-B458-4EEA-9994-EC747E2477D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706DEF11-A39B-4F65-912D-DC826506D2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706DEF11-A39B-4F65-912D-DC826506D2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706DEF11-A39B-4F65-912D-DC826506D2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706DEF11-A39B-4F65-912D-DC826506D2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD09F8E2-418E-4D1E-A517-6812FCDAC40E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+c:\users\biker\onedrive\מסמכים\visual studio 2017\Projects\HungerGamesStats\LibDelete\bin\Debug\LibDelete.dll
+c:\users\biker\onedrive\מסמכים\visual studio 2017\Projects\HungerGamesStats\LibDelete\bin\Debug\LibDelete.pdb
+c:\users\biker\onedrive\מסמכים\visual studio 2017\Projects\HungerGamesStats\LibDelete\obj\Debug\LibDelete.csproj.CoreCompileInputs.cache
+c:\users\biker\onedrive\מסמכים\visual studio 2017\Projects\HungerGamesStats\LibDelete\obj\Debug\LibDelete.dll
+c:\users\biker\onedrive\מסמכים\visual studio 2017\Projects\HungerGamesStats\LibDelete\obj\Debug\LibDelete.pdb
+c:\users\biker\onedrive\מסמכים\visual studio 2017\Projects\HungerGamesStats\LibDelete\obj\Debug\LibDelete.csprojResolveAssemblyReference.cache
